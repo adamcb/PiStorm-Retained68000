@@ -1,0 +1,12 @@
+firmware/builds/
+firmware/project/db/
+firmware/project/incremental_db/
+firmware/project/output_files/
+firmware/project/reports/
+firmware/project/*.qws
+firmware/project/*.bak
+__pycache__/
+*.pyc
+diagnostic-*-result-*.json
+diagnostic-preflight-*.json
+pistormflash

@@ -1,0 +1,20 @@
+PiStorm Retained 68000 is a derivative firmware investigation for a classic
+PiStorm on LazarusStorm with the original Amiga CPU retained.
+
+Original PiStorm source includes:
+Copyright 2020 Claude Schwarz
+Copyright 2020 Niklas Ekstrom
+Copyright (c) 2021 PiStorm developers
+
+Retained-CPU adaptation, diagnostics and documentation were developed for the
+reported hardware setup. Original copyright and SPDX headers are preserved.
+
+References:
+https://github.com/captain-amygdala/pistorm
+https://github.com/LemaruX/PiStorm-Firmware
+https://github.com/arananet/LAZARUSTORM
+
+Quartus project files retain their generated vendor headers. Quartus and its
+vendor libraries are not distributed. The separately obtained pistormflash
+utility retains its own upstream provenance. ROMs, SD-card contents, installers,
+private captures and unrelated experimental firmware are not included.
