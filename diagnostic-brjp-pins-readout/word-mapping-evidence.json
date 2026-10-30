@@ -1,0 +1,66 @@
+{
+  "status": "PASS_OFFICIAL_QUARTUS_MIF_POF_SVF_MAPPING_ONLY",
+  "physicalJtagQualified": false,
+  "target": "EPM240T100I5",
+  "compiler": "Quartus Lite24.1std.0 Build1077",
+  "svfSha256": "b54c91869a27cc1ef9b3f119a6148f4e2a5620eead8b1d78409fe620b935be2c",
+  "pofSha256": "0d8a003730232020348084098dc85736ead171d87c8c92969d2532078ce9fb1f",
+  "mifSha256": "02f2387eda3017531869b741720bde66b033d2e9cf2c952e9e137ecd61c27bab",
+  "wordsVerified": 512,
+  "ufmAddressSelector": 1,
+  "jtagIrWidth": 10,
+  "conversion": "logical UFM word = bitreverse16(numeric LSB-first JTAG scan value)",
+  "sentinels": [
+    {
+      "address": 0,
+      "logical": "a123",
+      "jtag": "c485"
+    },
+    {
+      "address": 1,
+      "logical": "4567",
+      "jtag": "e6a2"
+    },
+    {
+      "address": 2,
+      "logical": "d16a",
+      "jtag": "568b"
+    },
+    {
+      "address": 3,
+      "logical": "0001",
+      "jtag": "8000"
+    },
+    {
+      "address": 4,
+      "logical": "8000",
+      "jtag": "0001"
+    },
+    {
+      "address": 5,
+      "logical": "00ff",
+      "jtag": "ff00"
+    },
+    {
+      "address": 6,
+      "logical": "ff00",
+      "jtag": "00ff"
+    },
+    {
+      "address": 255,
+      "logical": "0123",
+      "jtag": "c480"
+    },
+    {
+      "address": 256,
+      "logical": "89ab",
+      "jtag": "d591"
+    },
+    {
+      "address": 511,
+      "logical": "cdef",
+      "jtag": "f7b3"
+    }
+  ],
+  "caveat": "Offline compiler conversion proves the serialization mapping of this fixture; it does not exercise physical JTAG signals. The mapping fixture SVF is NOT a PiStorm firmware and must never be flashed."
+}

@@ -1,0 +1,11 @@
+-- Diagnostic format identity, programmed with the image. The logger only
+-- writes record words 0 and 1. These final two words are never modified.
+WIDTH=16;
+DEPTH=512;
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+CONTENT BEGIN
+ [000..1FD] : FFFF;
+ 1FE : 4D55;
+ 1FF : C12C;
+END;

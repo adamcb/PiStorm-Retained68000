@@ -1,0 +1,230 @@
+{
+  "target": "EPM240T100I5",
+  "basis": "75bbc70be87a8f63f02ce6a57f23f5fb1d9c5787/rtl/pistorm.qsf",
+  "pins": [
+    {
+      "name": "PI_CLK",
+      "pin": 12
+    },
+    {
+      "name": "PI_RESET",
+      "pin": 34
+    },
+    {
+      "name": "PI_A[1]",
+      "pin": 28
+    },
+    {
+      "name": "PI_A[0]",
+      "pin": 27
+    },
+    {
+      "name": "PI_D[0]",
+      "pin": 2
+    },
+    {
+      "name": "PI_D[1]",
+      "pin": 3
+    },
+    {
+      "name": "PI_D[2]",
+      "pin": 4
+    },
+    {
+      "name": "PI_D[3]",
+      "pin": 5
+    },
+    {
+      "name": "PI_D[4]",
+      "pin": 6
+    },
+    {
+      "name": "PI_D[5]",
+      "pin": 7
+    },
+    {
+      "name": "PI_D[6]",
+      "pin": 26
+    },
+    {
+      "name": "PI_D[7]",
+      "pin": 21
+    },
+    {
+      "name": "PI_D[8]",
+      "pin": 17
+    },
+    {
+      "name": "PI_D[9]",
+      "pin": 16
+    },
+    {
+      "name": "PI_D[10]",
+      "pin": 20
+    },
+    {
+      "name": "PI_D[11]",
+      "pin": 8
+    },
+    {
+      "name": "PI_D[12]",
+      "pin": 15
+    },
+    {
+      "name": "PI_D[13]",
+      "pin": 14
+    },
+    {
+      "name": "PI_D[14]",
+      "pin": 19
+    },
+    {
+      "name": "PI_D[15]",
+      "pin": 18
+    },
+    {
+      "name": "PI_TXN_IN_PROGRESS",
+      "pin": 30
+    },
+    {
+      "name": "PI_IPL_ZERO",
+      "pin": 33
+    },
+    {
+      "name": "PI_RD",
+      "pin": 35
+    },
+    {
+      "name": "PI_WR",
+      "pin": 29
+    },
+    {
+      "name": "LTCH_A_0",
+      "pin": 44
+    },
+    {
+      "name": "LTCH_A_8",
+      "pin": 42
+    },
+    {
+      "name": "LTCH_A_16",
+      "pin": 47
+    },
+    {
+      "name": "LTCH_A_24",
+      "pin": 48
+    },
+    {
+      "name": "LTCH_A_OE_n",
+      "pin": 43
+    },
+    {
+      "name": "LTCH_D_RD_U",
+      "pin": 50
+    },
+    {
+      "name": "LTCH_D_RD_L",
+      "pin": 49
+    },
+    {
+      "name": "LTCH_D_RD_OE_n",
+      "pin": 38
+    },
+    {
+      "name": "LTCH_D_WR_U",
+      "pin": 36
+    },
+    {
+      "name": "LTCH_D_WR_L",
+      "pin": 40
+    },
+    {
+      "name": "LTCH_D_WR_OE_n",
+      "pin": 41
+    },
+    {
+      "name": "M68K_CLK",
+      "pin": 62
+    },
+    {
+      "name": "M68K_VMA_n",
+      "pin": 52
+    },
+    {
+      "name": "M68K_E",
+      "pin": 53
+    },
+    {
+      "name": "M68K_VPA_n",
+      "pin": 54
+    },
+    {
+      "name": "M68K_BERR_n",
+      "pin": 55
+    },
+    {
+      "name": "M68K_IPL_n[0]",
+      "pin": 56
+    },
+    {
+      "name": "M68K_FC[2]",
+      "pin": 57
+    },
+    {
+      "name": "M68K_IPL_n[1]",
+      "pin": 58
+    },
+    {
+      "name": "M68K_IPL_n[2]",
+      "pin": 61
+    },
+    {
+      "name": "M68K_FC[1]",
+      "pin": 64
+    },
+    {
+      "name": "M68K_FC[0]",
+      "pin": 66
+    },
+    {
+      "name": "M68K_RESET_n",
+      "pin": 67
+    },
+    {
+      "name": "M68K_HALT_n",
+      "pin": 68
+    },
+    {
+      "name": "M68K_BR_n",
+      "pin": 69
+    },
+    {
+      "name": "M68K_BGACK_n",
+      "pin": 70
+    },
+    {
+      "name": "M68K_BG_n",
+      "pin": 71
+    },
+    {
+      "name": "M68K_AS_n",
+      "pin": 72
+    },
+    {
+      "name": "M68K_UDS_n",
+      "pin": 73
+    },
+    {
+      "name": "M68K_LDS_n",
+      "pin": 74
+    },
+    {
+      "name": "M68K_RW",
+      "pin": 75
+    },
+    {
+      "name": "M68K_DTACK_n",
+      "pin": 76
+    }
+  ]
+}
